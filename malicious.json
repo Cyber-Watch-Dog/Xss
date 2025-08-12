@@ -1,9 +1,8 @@
 {
-  "swagger": "2.0",
-  "info": {
-    "version": "1.0.0",
-    "title": "<img src=x onerror=alert('poC-swagger-config')>",
-    "description": "PoC config injection test"
-  },
-  "paths": {}
+  "urls": [
+    {
+      "url": "https://gateway.tz.smartphone.m-pesa.com/service-adapter/v3/api-docs",
+      "name": "Injected Spec"
+    }
+  ]
 }
